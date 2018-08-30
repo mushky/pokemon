@@ -115,7 +115,6 @@ var cpuTurn = {
 			$("#attack-img").addClass("cpu-attack-img");
 			$("#attack-img").removeClass("hide");
 			$("#attack-img").fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100);
-
 		};
 
 		function attackingMove(){
@@ -177,7 +176,7 @@ var playerTurn = {
 				$('#chat-text').text(userUnit.name + " USED " + currentUserMove.name + "!")
 				getMoveType();
 			} else {
-				$('#chat-text').text(userUnit.name + " MISSED with " + currentUserMove.name + "!")
+				$('#chat-text').text(userUnit.name + " MISSED WITH " + currentUserMove.name + "!")
 				currentState = playerTurn;
 				setTimeout(loop, 1500)
 			}
