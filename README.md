@@ -8,6 +8,6 @@ Instructions:
   - css
   - js
   - img
-  index.html
+index.html
 
 3. open index.html in your browser
