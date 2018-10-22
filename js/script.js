@@ -219,16 +219,12 @@ var playerTurn = {
   		loop();
 		}
 
-
-
-
 		$('#move1-button, #move2-button, #move3-button, #move4-button').unbind().click(function() {
 			var move = $(this).attr("value");
 			console.log("Clicked");
 			currentUserMove = userUnit.moves[move];
 			prepareToAttack();
 		});
-
 
 		setUpUserField();
 	}
